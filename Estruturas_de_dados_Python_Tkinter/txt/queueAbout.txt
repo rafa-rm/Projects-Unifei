@@ -1,0 +1,17 @@
+São estruturas de dados do tipo FIFO (first-in first-out), onde o primeiro elemento a ser inserido, 
+será o primeiro a ser retirado, ou seja, adiciona-se itens no fim e remove-se do início.
+Nesta fila o usuário estará enfileirando tarefas (strings). Abaixo estão exemplificadas as funções.
+
+Botões:
+Inserir - É pedido para entrar com o código da tarefa;
+Remover - É feito a remoção do primeiro elemento;
+Limpar tela -Todos os elementos serão removidos;
+Retornar - Volta para a tela inicial de seleção de estrutura de dados.
+Menu - Arquivo:
+Abrir - É pedido para entrar com um arquivo válido para criar a fila;
+Salvar - Salva em um arquivo a fila que estiver nessa execução.
+Menu - Operações:
+É possível realizar as operações igual as presentes nos botões.
+Canvas:
+Botão esquerdo do mouse: Inserir uma tarefa;
+Botão direito do mouse: Retirar a primeira tarefa.

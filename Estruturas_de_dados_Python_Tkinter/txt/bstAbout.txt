@@ -1,0 +1,18 @@
+Uma árvore binária de busca (ou árvore binária de pesquisa) é uma estrutura de dados de árvore binária baseada em nós, 
+onde todos os nós da subárvore esquerda possuem um valor numérico inferior ao nó raiz e todos os nós da subárvore direita possuem um valor superior ao nó raiz, 
+sendo que esta é a forma padrão e que foi usada nesse código, no entanto as subárvores serem invertidas, dependendo da aplicação.
+Abaixo estão exemplificadas as funções
+
+Botões:
+Inserir - É pedido para entrar com o valor do elemento a ser inserido;
+Remover - É pedido para entrar com o valor do elemento a ser removido;
+Limpar tela -Todos os elementos serão removidos;
+Retornar - Volta para a tela inicial de seleção de estrutura de dados.
+Menu - Arquivo:
+Abrir - É pedido para entrar com um arquivo válido para criar a árvore;
+Salvar - Salva em um arquivo a árvore que estiver nessa execução.
+Menu - Operações:
+É possível realizar as operações igual as presentes nos botões.
+Canvas:
+Botão esquerdo do mouse: Inserir um elemento;
+Botão direito do mouse: Retirar um elemento.

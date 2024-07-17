@@ -1,0 +1,19 @@
+Uma lista ligada ou lista encadeada é uma estrutura de dados linear e dinâmica. Ela é composta por células que apontam para o próximo elemento da lista. 
+Para "ter" uma lista ligada/encadeada, basta guardar seu primeiro elemento, e seu último elemento aponta para uma célula nula
+Nesta lista o usuário estará cadastrando alunos em uma lista. Abaixo estão exemplificadas as funções.
+
+Botões:
+Inserir - É pedido para entrar com as informações do aluno;
+Remover - É pedido para entrar com o nome do aluno a ser removido;
+Primeiro - Apresenta o primeiro aluno da lista;
+Buscar - É pedido para entrar com o número do aluno a ser buscado;
+Limpar tela -Todos os elementos serão removidos;
+Retornar - Volta para a tela inicial de seleção de estrutura de dados.
+Menu - Arquivo:
+Abrir - É pedido para entrar com um arquivo válido para criar a lista;
+Salvar - Salva em um arquivo a lista que estiver nessa execução.
+Menu - Operações:
+É possível realizar as operações igual as presentes nos botões.
+Canvas:
+Botão esquerdo do mouse: Inserir um aluno;
+Botão direito do mouse: Retirar um aluno.

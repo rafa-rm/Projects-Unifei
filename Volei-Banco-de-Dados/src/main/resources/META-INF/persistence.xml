@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="voleiPU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<class>br.edu.unifei.trabalho.volei.Arbitro</class>
+		<class>br.edu.unifei.trabalho.volei.Equipe</class>
+		<class>br.edu.unifei.trabalho.volei.Estadio</class>
+		<class>br.edu.unifei.trabalho.volei.FundoQuadra</class>
+		<class>br.edu.unifei.trabalho.volei.Jogada</class>
+		<class>br.edu.unifei.trabalho.volei.Jogador</class>
+		<class>br.edu.unifei.trabalho.volei.Partida</class>
+		<class>br.edu.unifei.trabalho.volei.Pessoa</class>
+		<class>br.edu.unifei.trabalho.volei.Ponto</class>
+		<class>br.edu.unifei.trabalho.volei.Posicionamento</class>
+		<class>br.edu.unifei.trabalho.volei.Rede</class>
+		<class>br.edu.unifei.trabalho.volei.Regra</class>
+		<class>br.edu.unifei.trabalho.volei.SetDisputado</class>
+		<class>br.edu.unifei.trabalho.volei.Torcida</class>
+		<class>br.edu.unifei.trabalho.volei.Torneio</class>
+		<class>br.edu.unifei.trabalho.volei.Treinador</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/volei?useTimezone=true&amp;serverTimezone=UTC"/>
+            <property name="javax.persistence.jdbc.user" value="volei"/>
+            <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.password" value="volei"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDBDialect"/>
+            <property name="javax.persistence.schema-generation.database.action" value="none"/>
+        </properties>
+    </persistence-unit>
+</persistence>

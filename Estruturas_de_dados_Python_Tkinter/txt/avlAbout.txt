@@ -1,0 +1,18 @@
+Uma árvore AVL é uma árvore altamente balanceada, isto é, nas inserções e exclusões, procura-se executar uma rotina de balanceamento tal
+que as alturas das sub-árvores esquerda e sub-árvores direita tenham alturas bem próximas.
+Uma árvore balanceada minimiza o número de comparações efetuadas no pior caso para uma busca com chaves de probabilidades de ocorrências idênticas
+Abaixo estão exemplificadas as funções:
+
+Botões:
+Inserir - É pedido para entrar com o valor do elemento a ser inserido;
+Remover - É pedido para entrar com o valor do elemento a ser removido;
+Limpar tela -Todos os elementos serão removidos;
+Retornar - Volta para a tela inicial de seleção de estrutura de dados.
+Menu - Arquivo:
+Abrir - É pedido para entrar com um arquivo válido para criar a árvore;
+Salvar - Salva em um arquivo a árvore que estiver nessa execução.
+Menu - Operações:
+É possível realizar as operações igual as presentes nos botões.
+Canvas:
+Botão esquerdo do mouse: Inserir um elemento;
+Botão direito do mouse: Retirar um elemento.

@@ -1,0 +1,17 @@
+São estruturas de dados do tipo LIFO (last-in first-out), onde o último elemento a ser inserido,será o primeiro a ser retirado. 
+Assim, uma pilha permite acesso a apenas um item de dados - o último inserido.Para processar o penúltimo item inserido, deve-se remover o último.
+Nesse pilha o usuário estará empilhando livros. Abaixo estão exemplificadas as funções.
+
+Botões:
+Inserir - É pedido para entrar com as informações sobre o livro;
+Remover - É feito a remoção do elemento do topo;
+Limpar tela -Todos os elementos serão removidos;
+Retornar - Volta para a tela inicial de seleção de estrutura de dados.
+Menu - Arquivo:
+Abrir - É pedido para entrar com um arquivo válido para inserir na pilha.
+Salvar - Salva em um arquivo a pilha que estiver nessa execução.
+Menu - Operações:
+É possível realizar as operações igual as presentes nos botões
+Canvas:
+Botão esquerdo do mouse: Inserir um livro
+Botão direito do mouse: Retirar o livro do topo
