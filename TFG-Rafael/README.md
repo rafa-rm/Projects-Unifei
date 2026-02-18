@@ -1,9 +1,5 @@
 # Trabalho final de Graduação (TFG) - Universidade Federal de Itajubá
 
-## Link para a aplicação criada com o Streamlit
-
-https://heartdiseasepredict.streamlit.app/
-
 ## Objetivos
 
 O presente trabalho teve o objetivo de realizar uma análise exploratória em uma base de dados para a detecção de doenças cardíacas em um paciente, verificando a integridade e consistência dos dados. <br>
